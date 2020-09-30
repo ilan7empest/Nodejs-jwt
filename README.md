@@ -10,5 +10,5 @@
     POST Request "domain//login" with the same email and password = returns jwt token to use in all following request
     
 ### 4. Use "passport.authenticate("jwt", { session: false })" as a middleware for all authorized routes
-### 5. pass the token in the header "Authentication"
+### 5. pass the token in the "Authentication" header 
     
